@@ -29,12 +29,19 @@ nav a {
 
 main {
     position: relative;
-    margin: auto;
-    max-width: 1200px;
+}
+
+.sessao_0 {
+    display: flex;
+    justify-content: space-evenly;
     padding: 100px;
 }
 
-.titulo h1 {
+.titulo, .titulo1 {
+    padding: 50px;
+}
+
+.titulo h1, .titulo1 h1 {
     font-weight: 700;
     font-size: 60px;
     color: #FF4081;
@@ -45,10 +52,15 @@ main {
     font-size: 20px;
     color: #555555;
 }
-
+.titulo1 h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #555555; 
+}
 .curso {
     display: flex;
     align-items: stretch;
+    justify-content: space-around;
     padding: 50px;
 }
 
@@ -89,8 +101,87 @@ main {
 }
 
 hr {
+    
+    position: relative;
+    width: 1400px;
+    left: 3%;
     background-color:#C4C4C4;
 }
+
+.sessao {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(1);
+    height: 700px;
+    align-content: center;
+    justify-content: center;
+    background-color:#F6F6F6;
+}
+
+.item img {
+    position: relative;
+    width: 220px;
+    height: 270px;
+    left: 30%;
+    
+}
+.sessao h3 {
+    font-weight: 700;
+    font-size: 29px;
+    padding: 25px;
+    text-align: center;
+    color: #FF4081;
+}
+.sessao p {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.sessao button {
+    position: relative;
+    border: 2px solid #FF4081;
+    background-color: #FF4081;
+    border-radius: 62px;
+    width: 170px;
+    height: 40px;
+    top: 5%;
+    left: 33%;
+}
+.sessao a {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sessao_2 {
+    position: relative;
+    left: 10%;
+    padding: 70px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #009688;
+}
+
+.sessao_3 {
+    display: grid;
+    grid-template-columns: 104px 400px 104px 400px;
+    grid-template-rows: repeat(2, 104px);
+    justify-content: center;
+    align-items: center;
+    row-gap: 70px;
+    column-gap: 50px;
+    height: 450px;
+}
+
+.sessao_3 p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
 
 footer {
     display: flex;
