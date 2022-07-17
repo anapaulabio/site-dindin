@@ -14,7 +14,7 @@ header {
 }
 
 nav ul {
-    display:flex;
+    display: flex;
     list-style: none;
 
 }
@@ -37,11 +37,13 @@ main {
     padding: 100px;
 }
 
-.titulo, .titulo1 {
+.titulo,
+.titulo1 {
     padding: 50px;
 }
 
-.titulo h1, .titulo1 h1 {
+.titulo h1,
+.titulo1 h1 {
     font-weight: 700;
     font-size: 60px;
     color: #FF4081;
@@ -52,11 +54,35 @@ main {
     font-size: 20px;
     color: #555555;
 }
-.titulo1 h2{
+
+.titulo1 h2 {
     font-weight: 400;
     font-size: 30px;
-    color: #555555; 
+    color: #555555;
 }
+
+.titulo1 button, .sessao_6 button {
+    width: 275px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 3px solid #FF4081;
+    border-radius: 62px;
+    background:none;
+}
+
+.titulo1 button {
+    position: relative;
+    top: 40px;
+}
+
+.titulo1 a, .sessao_6 a {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FF4081;
+}
+
 .curso {
     display: flex;
     align-items: stretch;
@@ -74,11 +100,13 @@ main {
     font-size: 35px;
     color: #FF4081;
     padding: 20px;
-    
+
 }
+
 .txt {
     padding: 20px;
 }
+
 .curso p {
     font-weight: 300;
     font-size: 18px;
@@ -101,21 +129,21 @@ main {
 }
 
 hr {
-    
     position: relative;
     width: 1400px;
     left: 3%;
-    background-color:#C4C4C4;
+    background-color: #C4C4C4;
 }
 
-.sessao {
+.sessao,
+.sessao_5 {
     display: grid;
     grid-template-columns: repeat(3, 500px);
     grid-template-rows: repeat(1);
-    height: 700px;
+    height: 680px;
     align-content: center;
     justify-content: center;
-    background-color:#F6F6F6;
+    background-color: #F6F6F6;
 }
 
 .item img {
@@ -123,8 +151,9 @@ hr {
     width: 220px;
     height: 270px;
     left: 30%;
-    
+
 }
+
 .sessao h3 {
     font-weight: 700;
     font-size: 29px;
@@ -132,9 +161,10 @@ hr {
     text-align: center;
     color: #FF4081;
 }
+
 .sessao p {
     font-weight: 300;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     color: #000000;
 }
@@ -144,11 +174,12 @@ hr {
     border: 2px solid #FF4081;
     background-color: #FF4081;
     border-radius: 62px;
-    width: 170px;
+    width: 215px;
     height: 40px;
     top: 5%;
-    left: 33%;
+    left: 30%;
 }
+
 .sessao a {
     position: relative;
     font-weight: 400;
@@ -160,7 +191,7 @@ hr {
 .sessao_2 {
     position: relative;
     left: 10%;
-    padding: 70px;
+    padding: 70px 0 ;
     font-weight: 400;
     font-size: 25px;
     color: #009688;
@@ -182,6 +213,57 @@ hr {
     font-size: 18px;
 }
 
+.sessao_4 {
+    font-weight: 400;
+    font-size: 25px;
+    color: #009688;
+    background-color: #F6F6F6;
+}
+
+.sessao_4 h2 {
+    position: relative;
+    padding: 10px 0;
+    left: 10%;
+    top: 70px;
+}
+
+.sessao_5 {
+    column-gap: 40px;
+    padding: 30px 0;
+}
+
+.sessao_5 img {
+    position: relative;
+    width: 420px;
+    height: 260px;
+    left: 8%;
+
+}
+
+.sessao_5 h3 {
+    position: relative;
+    left: 8%;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: justify;
+    color: #009688;
+}
+
+.sessao_5 p {
+    position: relative;
+    left: 8%;
+    font-weight: 300;
+    font-size: 23px;
+    text-align: justify;
+    color:#000000;
+}
+
+.sessao_6 {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #F6F6F6;
+}
 
 footer {
     display: flex;
@@ -192,7 +274,7 @@ footer {
 
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
     padding: 5px;
     font-weight: 400;
@@ -211,7 +293,7 @@ footer button {
     color: #ffffff;
     border-radius: 60px;
     background: none;
-    border: 2px solid #ffffff; 
+    border: 2px solid #ffffff;
     box-sizing: border-box;
 
 }
