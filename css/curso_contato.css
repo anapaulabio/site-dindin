@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    max-width: 1440px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -59,9 +60,7 @@ nav a {
     justify-content: center;
     align-items: center;
     height: 400px;
-
-        background: #F6F6F6;
-    border-bottom: 3px solid #C4C4C4;
+    background: #F6F6F6;
 
 }
 
@@ -76,6 +75,12 @@ nav a {
     color: #FF4081;
 }
 
+hr {
+    position: relative;
+    left: 90px;
+    width: 1240px;
+    background: #C4C4C4; 
+}
 .formulario {
     display: grid;
     grid-template-columns: repeat(2, 500px);

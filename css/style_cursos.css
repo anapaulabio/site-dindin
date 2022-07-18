@@ -1,4 +1,5 @@
 * {
+    max-width: 1380px;
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -25,10 +26,6 @@ nav a {
     font-weight: 700;
     color: #FDFDFD;
     padding: 20px;
-}
-
-main {
-    position: relative;
 }
 
 .sessao_0 {
@@ -130,7 +127,7 @@ main {
 
 hr {
     position: relative;
-    width: 1400px;
+    width: 1300px;
     left: 3%;
     background-color: #C4C4C4;
 }
@@ -138,7 +135,7 @@ hr {
 .sessao,
 .sessao_5 {
     display: grid;
-    grid-template-columns: repeat(3, 500px);
+    grid-template-columns: repeat(3, 450px);
     grid-template-rows: repeat(1);
     height: 680px;
     align-content: center;
@@ -228,14 +225,13 @@ hr {
 }
 
 .sessao_5 {
-    column-gap: 40px;
     padding: 30px 0;
 }
 
 .sessao_5 img {
     position: relative;
-    width: 420px;
-    height: 260px;
+    width: 340px;
+    height: 190px;
     left: 8%;
 
 }
@@ -244,7 +240,7 @@ hr {
     position: relative;
     left: 8%;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 25px;
     text-align: justify;
     color: #009688;
 }
@@ -253,7 +249,7 @@ hr {
     position: relative;
     left: 8%;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 20px;
     text-align: justify;
     color:#000000;
 }
