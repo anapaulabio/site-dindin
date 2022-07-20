@@ -28,22 +28,16 @@ nav a {
     padding: 20px;
 }
 
-.sessao_0, .sessao_1 {
-    display: grid;
-    grid-template-columns: repeat(2, 520px);
-    grid-row: auto;
-    justify-content: center;
-    align-items: center;
-
-}
 .sessao_0 {
-    padding: 70px;
-    column-gap: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
 }
+
 
 .sessao_0 h1 {
-    position: relative;
-    left: 60px;
+    padding-left: 60px;
     font-weight: 700;
     font-size: 47px;
     color: #009688;
@@ -51,7 +45,6 @@ nav a {
 }
 
 .sessao_0 p {
-    position: relative;
     padding: 40px 60px;
     width: 400px;
     font-weight: 300;
@@ -59,30 +52,31 @@ nav a {
 
 }
 
-.sessao_0 img {
-    position: relative;
-    left: 20px;
+.sessao_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    justify-content: space-evenly;
+    padding: 100px;
+    column-gap: 80px;
+    row-gap: 50px;
+    background: #E5E5E5;
 }
 
-.sessao_1 {
-    column-gap: 100px;
-    height: 1600px;
-    background: #E5E5E5;;
-}
 .sessao_1 img {
     width: 515px;
     height: 260px;
 }
 
 .sessao_1 h2 {
-    position: relative;
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
     font-weight: 500;
     font-size: 30px;
     color: #FF4081;
 }
 
 .sessao_1 p {
+    width: 515px;
     font-weight: 300;
     font-size: 17px;
     color: #000000;

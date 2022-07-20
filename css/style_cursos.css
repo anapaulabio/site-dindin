@@ -83,8 +83,8 @@ nav a {
 .curso {
     display: flex;
     align-items: stretch;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: space-evenly;
+    padding: 70px;
 }
 
 .curso img {
@@ -134,12 +134,9 @@ hr {
 
 .sessao,
 .sessao_5 {
-    display: grid;
-    grid-template-columns: repeat(3, 450px);
-    grid-template-rows: repeat(1);
-    height: 680px;
+    display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: #F6F6F6;
 }
 
@@ -147,10 +144,12 @@ hr {
     position: relative;
     width: 220px;
     height: 270px;
-    left: 30%;
-
+    left: 20%;
 }
 
+.sessao{
+    padding: 50px;
+}
 .sessao h3 {
     font-weight: 700;
     font-size: 29px;
@@ -174,7 +173,7 @@ hr {
     width: 215px;
     height: 40px;
     top: 5%;
-    left: 30%;
+    left: 23%;
 }
 
 .sessao a {
@@ -188,7 +187,7 @@ hr {
 .sessao_2 {
     position: relative;
     left: 10%;
-    padding: 70px 0 ;
+    padding: 50px 0 ;
     font-weight: 400;
     font-size: 25px;
     color: #009688;
@@ -196,61 +195,48 @@ hr {
 
 .sessao_3 {
     display: grid;
-    grid-template-columns: 104px 400px 104px 400px;
-    grid-template-rows: repeat(2, 104px);
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
     row-gap: 70px;
-    column-gap: 50px;
-    height: 450px;
+    padding: 50px;
 }
+
+.sessao_3 img  {
+    padding-left: 70px;
+}
+
 
 .sessao_3 p {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 18px; 
 }
 
 .sessao_4 {
+    padding: 40px;
     font-weight: 400;
     font-size: 25px;
     color: #009688;
     background-color: #F6F6F6;
 }
 
-.sessao_4 h2 {
-    position: relative;
-    padding: 10px 0;
-    left: 10%;
-    top: 70px;
-}
-
 .sessao_5 {
-    padding: 30px 0;
+    padding: 50px;
 }
 
-.sessao_5 img {
-    position: relative;
+.item2 img {
     width: 340px;
     height: 190px;
-    left: 8%;
-
 }
 
 .sessao_5 h3 {
-    position: relative;
-    left: 8%;
     font-weight: 700;
     font-size: 25px;
-    text-align: justify;
     color: #009688;
 }
 
 .sessao_5 p {
-    position: relative;
-    left: 8%;
     font-weight: 300;
     font-size: 20px;
-    text-align: justify;
     color:#000000;
 }
 
