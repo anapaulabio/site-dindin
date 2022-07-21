@@ -141,11 +141,16 @@ nav ul li a {
   font-weight: 400;
   font-size: 2rem;
 
-  color: #ffffff;
   background-color: #419488;
   border-radius: 62px;
   border: #419488;
 }
+
+.curso button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 hr {
   position: relative;
@@ -234,7 +239,6 @@ hr {
 }
 
 .sessao_4 {
-  width: 90%;
   max-width: 1440px;
   padding: 4rem;
   font-weight: 400;
@@ -266,7 +270,6 @@ hr {
 }
 
 .sessao_6 {
-  width: 90%;
   max-width: 1440px;
   text-align: center;
   padding: 2rem;
