@@ -3,8 +3,15 @@
     font-family: "Ubuntu", sans-serif;
   }
   
+  html{
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+  }
+  
   header {
-    display: flex;
     background-color: #2e948a;
   }
   
@@ -18,7 +25,9 @@
   }
   
   header img {
-    padding-left: 80px;
+    padding-left: 8rem;
+    width: 24.4rem;
+    height: 7.7rem;
   }
   
   nav ul {
@@ -28,67 +37,71 @@
   
   nav ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     color: #fdfdfd;
-    padding: 24px;
+    padding: 2.4rem;
   }
+
 
 .sessao_0 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px;
+    padding: 5rem;
     width: 90%;
     max-width: 1440px;
 }
 
 
 .sessao_0 h1 {
-    padding-left: 60px;
+    padding-left: 6rem;
     font-weight: 700;
-    font-size: 47px;
+    font-size: 4.7rem;
     color: #009688;
 
 }
 
 .sessao_0 p {
-    padding: 40px 60px;
-    width: 400px;
+    padding: 4rem 6rem;
+    width: 40rem;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 2rem;
 
+}
+.sessao_0 img {
+  width: 40.5rem;
+  height: 40.9rem;
 }
 
 .sessao_1 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-row: auto;
-    justify-content: space-evenly;
-    padding: 100px;
-    column-gap: 80px;
-    row-gap: 50px;
-    width: 90%;
+    text-align: center;
+    padding: 3rem;
+    row-gap: 5rem;
     max-width: 1440px;
     background: #E5E5E5;
 }
 
 .sessao_1 img {
-    width: 515px;
-    height: 260px;
+    width: 48rem;
+    height: 26rem;
 }
 
 .sessao_1 h2 {
-    padding: 20px 0 20px 0;
+    padding: 2rem 0 2rem 0;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 3rem;
     color: #FF4081;
 }
 
 .sessao_1 p {
-    width: 515px;
+  text-align: justify;
+  padding: 0 10rem 0 10rem;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 1.7rem;
     color: #000000;
 }
 
@@ -103,40 +116,40 @@
 
 .artigo h1, .texto h1 {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5rem;
     color:#FF4081;
 }
 
 .artigo h5 {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     color: #9D9D9D;
 }
 
 .img_post {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 8rem;
 }
 .img_post img{
-    width:1040px; 
-    height: 500px;
+    width:104rem; 
+    height: 50rem;
 }
 
 .artigo h2 {
     text-align: center;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 2.6rem;
     color:#2E948A;
 }
 
 .paragrafo {
-    padding: 30px 100px 30px 100px;
+    padding: 3rem 10rem 3rem 10rem;
     text-align: center;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #000000;
 }
 
@@ -154,27 +167,27 @@
 }
 
 .item img {
-  width: 220px;
-  height: 270px;
+  width: 22rem;
+  height: 27rem;
 }
 
 .sessao {
-  padding: 50px;
+  padding: 5rem;
   text-align: center;
 }
 
 .sessao h3 {
   font-weight: 700;
-  font-size: 29px;
+  font-size: 2.9rem;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 2rem;
   color: #ff4081;
 }
 
 .sessao p {
-  padding: 20px;
+  padding: 2rem;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2rem;
   text-align: center;
   color: #000000;
 }
@@ -183,72 +196,98 @@
   border: 2px solid #ff4081;
   background-color: #ff4081;
   border-radius: 62px;
-  width: 215px;
-  height: 40px;
+  width: 21.5rem;
+  height: 4rem;
 }
 
 .sessao a {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
   color: #ffffff;
 }
 
+
 footer {
-    background-color: #2e948a;
-  }
-  
-  footer .container {
-    width: 90%;
-    max-width: 1440px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
-  }
-  
-  footer img {
-    padding-left: 80px;
-  }
-  
-  footer ul li {
-    list-style: none;
-    padding: 5px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  
-  footer li a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  footer button {
-    width: 298px;
-    height: 51px;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 60px;
-    background: none;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
+  background-color: #2e948a;
+}
+
+footer .container {
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+footer img {
+  padding-left: 6rem;
+  width: 31.2rem;
+  height: 10.2rem;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer button {
+  width: 29.8rem;
+  height: 5.1rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 60px;
+  background: none;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+  @media (max-width: 1024px) {
+    html {
+      font-size: 50%;
+    }
   }
 
   @media (max-width: 768px) {
     .sessao_0 {
         flex-direction: column-reverse;
     }
+    .sessao_1 {
+      grid-template-columns: repeat(auto-fit, minmax(20rem,50rem));
+      justify-content: center;
+      text-align: center;
+    }
+    .sessao_1 p{
+      padding: 0;
+    }
     .img_post img {
-        width:500px; 
-        height: 250px;
+      width: 50rem;
+      height: 25rem;
     }
 }
 
     @media (max-width: 690px) {
-        .sessao {
+      html {
+        font-size: 40%;
+      }
+      header .container {
+        flex-direction: column;
+        row-gap: 1.5rem;
+      }  
+      .sessao {
         flex-direction: column;
         row-gap: 20px;
-        
-    }
+      } 
+      footer .container {
+        flex-direction: column;
+      }
+
     }
     
