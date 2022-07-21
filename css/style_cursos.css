@@ -3,11 +3,6 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-html,
-body {
-  height: 100vh;
-}
-
 header {
   background-color: #2e948a;
 }
@@ -96,7 +91,7 @@ nav ul li a {
 
 .curso {
   display: flex;
-  align-items: stretch;
+  align-items: baseline;
   justify-content: space-evenly;
   width: 90%;
   max-width: 1440px;
@@ -140,12 +135,11 @@ nav ul li a {
   border: #419488;
 }
 
-
 hr {
-    position: relative;
-    left: 5%;
+  position: relative;
+  left: 5%;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1250px;
   background-color: #c4c4c4;
 }
 
@@ -172,13 +166,13 @@ hr {
 .sessao h3 {
   font-weight: 700;
   font-size: 29px;
-  padding: 25px;
   text-align: center;
+  padding-top: 20px;
   color: #ff4081;
 }
 
 .sessao p {
-    padding-bottom: 10px;
+  padding: 20px;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
@@ -191,7 +185,6 @@ hr {
   border-radius: 62px;
   width: 215px;
   height: 40px;
-
 }
 
 .sessao a {
@@ -202,6 +195,7 @@ hr {
 }
 
 .sessao_2 {
+  display: flex;
   padding: 50px;
   font-weight: 400;
   font-size: 25px;
@@ -228,6 +222,8 @@ hr {
 }
 
 .sessao_4 {
+  width: 90%;
+  max-width: 1440px;
   padding: 40px;
   font-weight: 400;
   font-size: 25px;
@@ -236,12 +232,12 @@ hr {
 }
 
 .sessao_5 {
-  padding: 70px;
+  padding: 50px;
 }
 
 .item2 img {
-  width: 300px;
-  height: 150px;
+  width: 340px;
+  height: 190px;
 }
 
 .sessao_5 h3 {
@@ -251,16 +247,18 @@ hr {
 }
 
 .sessao_5 p {
+  padding-right: 40px;
   font-weight: 300;
   font-size: 20px;
   color: #000000;
 }
 
 .sessao_6 {
-text-align: center;
-padding: 20px;
-background-color: #f6f6f6;
-
+  width: 90%;
+  max-width: 1440px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f6f6f6;
 }
 
 footer {
@@ -273,11 +271,11 @@ footer .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
+  height: auto;
 }
 
 footer img {
-    padding-left: 80px;
+  padding-left: 80px;
 }
 
 footer ul li {
@@ -304,19 +302,17 @@ footer button {
 }
 
 @media (max-width: 768px) {
-  html {
-    font-size: 50%;
-  }
-
   .sessao_0,
   .sessao,
-  .sessao_5 {
+  .sessao_5,
+  .curso {
     flex-direction: column;
     row-gap: 20px;
     text-align: center;
   }
   .sessao_2,
   .sessao_4 {
+    justify-content: center;
     text-align: center;
   }
   .sessao_3 {
@@ -326,3 +322,4 @@ footer button {
     justify-content: center;
   }
 }
+
