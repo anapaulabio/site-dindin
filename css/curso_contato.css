@@ -1,193 +1,236 @@
 * {
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-  }
-  
-  header {
-    background-color: #2e948a;
-  }
-  
-  header .container {
-    display: flex;
-    width: 90%;
-    max-width: 1440px;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header img {
-    padding-left: 80px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fdfdfd;
-    padding: 24px;
-  }
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #2e948a;
+}
+
+header .container {
+  display: flex;
+  width: 90%;
+  max-width: 1440px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  padding-left: 8rem;
+  width: 24.4rem;
+  height: 7.7rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fdfdfd;
+  padding: 2.4rem;
+}
 
 .sessao_0 {
-    width: 90%;
-    max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px;
-
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
 }
-
+.sessao_0 img {
+  width: 38.2rem;
+  height: 38.7rem;
+}
 
 .titulo1 h1 {
-    font-weight: 700;
-    font-size: 55px;
-    color: #FF4081;
-}
-
-.titulo1 h2, .sessao_1 p {
-    width: 600px;
-    padding-top: 20px;
-    font-weight: 300;
-    font-size: 20px;
-    color: #000000;
+  font-weight: 700;
+  font-size: 5.5rem;
+  color: #ff4081;
 }
 
 .sessao_1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: space-evenly;
-    align-items: flex-start;
-    width: 90%;
-    height: auto;
-    max-width: 1440px;
-    padding: 50px 50px 50px 100px;
-    row-gap: 70px;
-    background: #F6F6F6;
-    
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  max-width: 1440px;
+  padding: 8rem;
+  row-gap: 7rem;
+  background: #f6f6f6;
 }
 
-iframe {
-
-
+.sessao_1 iframe {
+  width: 40rem;
+  height: 25rem;
 }
 .sessao_1 h2 {
-    font-weight: 700;
-    font-size: 35px;
-    color: #FF4081;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #ff4081;
+}
+
+.titulo1 h2,
+.sessao_1 p {
+  padding-top: 2rem;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #000000;
 }
 
 .formulario {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 70px;
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7rem;
 }
 
-
+.banner img {
+  width: 44.4rem;
+  height: 44.4rem;
+}
 
 .contato {
-    display:grid;
-    grid-template-columns: 1fr;
-    row-gap: 20px;
-    width: 500px;
+  display: grid;
+  grid-template-columns: 2fr, 3fr;
+  row-gap: 2rem;
+  width: 50rem;
+  box-sizing: border-box;
 }
 
 .contato h1 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #FF4081;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #ff4081;
 }
 
 .item1 {
-    height: 31px;
-    box-sizing: border-box;
-    border-radius: 7px;
-    border: 1px solid #686868;
-    padding-left: 10px;
+  height: 3.1rem;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid #686868;
+  padding-left: 1rem;
 }
 
 .item2 {
-    height: 160px;
-    box-sizing: border-box;
-    border-radius: 7px;
-    border: 1px solid #686868;
-    padding-left: 10px;
-    padding-bottom: 120px;
+  height: 16rem;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 1px solid #686868;
+  padding-left: 1rem;
+  padding-bottom: 12rem;
 }
 
 button {
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    box-sizing: border-box;
-    color: #FDFDFD;
-    background: #FF4081;
-    border: 2px solid #FF4081;
-    border-radius: 62px;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  color: #fdfdfd;
+  background: #ff4081;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
 }
 
 footer {
-    background-color: #2e948a;
+  background-color: #2e948a;
+}
+
+footer .container {
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+footer img {
+  padding-left: 6rem;
+  width: 31.2rem;
+  height: 10.2rem;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer button {
+  width: 29.8rem;
+  height: 5.1rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 60px;
+  background: none;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
   }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .sessao_0 {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+  .sessao_1 {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 50rem));
+    row-gap: 2rem;
+    text-align: center;
+    justify-content: center;
   
+  }
+  .sessao_1 p {
+    text-align: center;
+  }
+
+  .formulario {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 690px) {
+  header .container {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
   footer .container {
-    width: 90%;
-    max-width: 1440px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
+    flex-direction: column;
   }
-  
-  footer img {
-    padding-left: 80px;
-  }
-  
-  footer ul li {
-    list-style: none;
-    padding: 5px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  
-  footer li a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  footer button {
-    width: 298px;
-    height: 51px;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 60px;
-    background: none;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-  }
+}
 
-  @media (max-width: 768px) {
-    .sessao_0 {
-        flex-direction: column-reverse;
-        text-align: center;
-        justify-content: center;
-    }
-    .sessao_1 {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 500px));
-      row-gap: 20px;
-      text-align: center;
-      justify-content: center;
-    }
-
-    .formulario {
-      flex-direction: column;
-    }
+@media (max-width: 430px) {
+  html {
+    font-size: 35%;
   }
+}
