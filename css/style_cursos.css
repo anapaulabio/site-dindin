@@ -46,7 +46,6 @@ nav ul li a {
 .sessao_0 {
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
   max-width: 1440px;
   padding: 5rem;
 }
@@ -108,7 +107,6 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 90%;
   max-width: 1440px;
   padding: 7rem;
 }
@@ -153,10 +151,7 @@ nav ul li a {
 
 
 hr {
-  position: relative;
-  left: 5%;
-  width: 90%;
-  max-width: 1250px;
+  max-width: 1440px ;
   background-color: #c4c4c4;
 }
 
@@ -165,7 +160,6 @@ hr {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
-  width: 90%;
   max-width: 1440px;
   background-color: #f6f6f6;
 }
@@ -225,7 +219,6 @@ hr {
   grid-template-rows: repeat(2, 1fr);
   row-gap: 7rem;
   padding: 5rem;
-  width: 90%;
   max-width: 1440px;
 }
 
