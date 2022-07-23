@@ -2,23 +2,31 @@
 
 .sessao_0 {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   margin-inline: auto;
   max-width: 1440px;
-  padding: 5rem;
+  padding-block: 6rem;
+  padding: 2rem;
 }
 
-.titulo,
-.titulo1 {
-  padding: 5rem;
+.titulo {
+  padding: 4rem;
   max-width: 1440px;
   margin-inline: auto;
+}
+
+.titulo1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .titulo h1,
 .titulo1 h1 {
-  font-weight: 700;
   font-size: 6rem;
+  font-weight: 700;
+  max-width: 450px;
   color: #ff4081;
 }
 
@@ -44,11 +52,6 @@
   background: none;
 }
 
-.titulo1 button {
-  position: relative;
-  top: 4rem;
-}
-
 .titulo1 a,
 .sessao_6 a {
   font-weight: 400;
@@ -59,8 +62,8 @@
 }
 
 .sessao_0 img {
-  width: 40rem;
-  height: 41rem;
+  width: 50rem;
+  height: 51rem;
 }
 
 .curso {
@@ -233,11 +236,21 @@ hr {
   background-color: #f6f6f6;
 }
 
+@media (max-width: 1024px) {
+  .banner img {
+    width: 40rem;
+    height: 41rem;
+  }
+  .item2 img {
+    width: 30rem;
+    height: 15rem;
+  }
+}
 @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
-
+  
   .sessao_0,
   .sessao,
   .sessao_5,
@@ -246,7 +259,9 @@ hr {
     row-gap: 2rem;
     text-align: center;
     }
-
+    .titulo1 {
+      align-items: center;
+    }
   .sessao_2,
   .sessao_4 {
     justify-content: center;
@@ -258,8 +273,7 @@ hr {
     row-gap: 2rem;
     text-align: center;
     justify-content: center;
-  }
-}
+  }}
 
 @media (max-width: 690px) {
   header .container {
