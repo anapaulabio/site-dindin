@@ -1,47 +1,4 @@
-* {
-  margin: 0;
-  font-family: "Ubuntu", sans-serif;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-}
-
-header {
-  background-color: #2e948a;
-}
-
-header .container {
-  display: flex;
-  width: 90%;
-  max-width: 1440px;
-  height: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header img {
-  padding-left: 8rem;
-  width: 24.4rem;
-  height: 7.7rem;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #fdfdfd;
-  padding: 2.4rem;
-}
+@import url(general.css);
 
 .sessao_0 {
   width: 90%;
@@ -49,6 +6,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-inline: auto;
   padding: 4rem;
 }
 .sessao_0 img {
@@ -63,30 +21,34 @@ nav ul li a {
 }
 
 .sessao_1 {
+  background: #f6f6f6;
+}
+
+.container-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   align-items: flex-start;
   height: auto;
+  margin-inline: auto;
   max-width: 1440px;
   padding: 8rem;
   row-gap: 7rem;
-  background: #f6f6f6;
 }
 
-.sessao_1 iframe {
+.container-2 iframe {
   width: 40rem;
   height: 25rem;
 }
-.sessao_1 h2 {
+.container-2 h2 {
   font-weight: 700;
   font-size: 3.5rem;
   color: #ff4081;
 }
 
 .titulo1 h2,
-.sessao_1 p {
+.container-2 p {
   padding-top: 2rem;
   font-weight: 300;
   font-size: 2rem;
@@ -147,47 +109,7 @@ button {
   border-radius: 62px;
 }
 
-footer {
-  background-color: #2e948a;
-}
 
-footer .container {
-  width: 90%;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: auto;
-}
-
-footer img {
-  padding-left: 6rem;
-  width: 31.2rem;
-  height: 10.2rem;
-}
-
-footer ul li {
-  list-style: none;
-  padding: 0.5rem;
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-footer li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-footer button {
-  width: 29.8rem;
-  height: 5.1rem;
-  font-size: 2rem;
-  color: #ffffff;
-  border-radius: 60px;
-  background: none;
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-}
 @media (max-width: 1024px) {
   html {
     font-size: 50%;
@@ -203,14 +125,14 @@ footer button {
     text-align: center;
     justify-content: center;
   }
-  .sessao_1 {
+  .container-2 {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 50rem));
     row-gap: 2rem;
     text-align: center;
     justify-content: center;
   
   }
-  .sessao_1 p {
+  .container-2 p {
     text-align: center;
   }
 

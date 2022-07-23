@@ -1,54 +1,11 @@
-* {
-    margin: 0;
-    font-family: "Ubuntu", sans-serif;
-  }
-  
-  html{
-    font-size: 62.5%;
-  }
-  
-  body {
-    font-size: 1.6rem;
-  }
-  
-  header {
-    background-color: #2e948a;
-  }
-  
-  header .container {
-    display: flex;
-    width: 90%;
-    max-width: 1440px;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header img {
-    padding-left: 8rem;
-    width: 24.4rem;
-    height: 7.7rem;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fdfdfd;
-    padding: 2.4rem;
-  }
-
+@import url(general.css);
 
 .sessao_0 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 5rem;
+    margin-inline: auto;
     max-width: 1440px;
 }
 
@@ -81,7 +38,7 @@
     padding: 3rem;
     row-gap: 5rem;
     max-width: 1440px;
-    background: #E5E5E5;
+    margin-inline: auto;
 }
 
 .sessao_1 img {
@@ -110,6 +67,7 @@
     justify-content: center;
     height: auto;
     max-width: 1440px;
+    margin-inline: auto;
     
 }
 
@@ -152,34 +110,41 @@
     color: #000000;
 }
 
+section.background {
+  background-color: #F6F6F6;
+}
+
 .texto h1 {
     max-width: 1440px;
-    background: #F6F6F6;
-
+    margin-inline: auto;
 }
+
 .sessao {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
   max-width: 1440px;
-  background-color: #f6f6f6;
+  margin-inline: auto;
+  padding-block: 8rem;
 }
 
-.item img {
+.sessao div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sessao img {
   width: 22rem;
   height: 27rem;
 }
 
-.sessao {
-  padding: 5rem;
-  text-align: center;
-}
 
 .sessao h3 {
   font-weight: 700;
   font-size: 2.9rem;
-  text-align: center;
-  padding-top: 2rem;
   color: #ff4081;
 }
 
@@ -206,48 +171,6 @@
   color: #ffffff;
 }
 
-
-footer {
-  background-color: #2e948a;
-}
-
-footer .container {
-  width: 90%;
-  max-width: 1440px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: auto;
-}
-
-footer img {
-  padding-left: 6rem;
-  width: 31.2rem;
-  height: 10.2rem;
-}
-
-footer ul li {
-  list-style: none;
-  padding: 0.5rem;
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-footer li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-footer button {
-  width: 29.8rem;
-  height: 5.1rem;
-  font-size: 2rem;
-  color: #ffffff;
-  border-radius: 60px;
-  background: none;
-  border: 2px solid #ffffff;
-  box-sizing: border-box;
-}
   @media (max-width: 1024px) {
     html {
       font-size: 50%;
@@ -263,12 +186,17 @@ footer button {
       justify-content: center;
       text-align: center;
     }
+
     .sessao_1 p{
       padding: 0;
     }
     .img_post img {
       width: 50rem;
       height: 25rem;
+    }
+    .sessao {
+      flex-direction: column;
+      row-gap: 2rem;
     }
 }
 
