@@ -1,25 +1,14 @@
-<p align="center"><img alt="Dindin" height="64" src="./imagens/logo-header.png"></p>
+<p align="center"><<img src="imagens/computer.png" width="400px"></p>
 
-<h4 align="center">Educação Finaceira</h4>
 
-  <p align="center">Desafio Hacker - Hands On  </p>
+
+
+  <h2 align="center">Desafio Hacker - Hands On  </h2>
 
 <p align="center">
 
 
-  <img alt="GitHub contagem de linguagens" src="https://img.shields.io/github/languages/count/alicepaixao/ProfileComponent?color=%2304D361&style=plastic">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/languages/code-size/alicepaixao/ProfileComponent?style=plastic">
-
-
-
-  <img alt="licensa" src="https://img.shields.io/github/license/alicepaixao/ProfileComponent?style=plastic">
-
-  <img src="https://img.shields.io/github/forks/alicepaixao/ProfileComponent?style=plastic">
-
-<a href="https://github.com/alicepaixao/FoodFy/tree/master/commits/master">
-    <img alt="GitHub último commit" src="https://img.shields.io/github/last-commit/alicepaixao/ProfileComponent?style=plastic">
-  </a>
 
 <hr>
 
@@ -33,8 +22,13 @@
 
 ## 📋 Enunciado
 
-<p align="left">   A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira.
-Será desenvolvido um site estático. </p>
+<p align="left">   A empresa fictícia DINDIN, queria lançar uma plataforma de conteúdo sobre Educação Financeira.
+Foi desenvolvido um site estático com design responsivo para tablet e mobile. </p>
+
+<p align="center" display="flex">
+<img src="imagens/mobile.png" width="150px"> 
+<img src="imagens/tablet.png" width="200px">
+</p>
 
 <hr>
 
